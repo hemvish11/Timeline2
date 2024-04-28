@@ -1,0 +1,259 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    transition: all 0.5s ease;
+}
+/* -------------------------------------------text---------------------------------------- */
+
+p{
+    overflow: hidden;
+    font-family: "Proxima Nova A Bold"
+}
+p span{
+    display: inline-block;
+    transform: translateY(100%);
+}
+
+p img{
+    display: inline-block;
+    transform: translateY(110%);
+}
+.small{
+    font-family: "Proxima Nova A"
+}
+
+
+/* -------------------------------------------divs---------------------------------------- */
+
+
+.svg-container{
+    width: 25%;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.left{
+    transition: all 0.5s ease;
+}
+
+.right{
+    transition: all 0.5s ease;
+}
+
+.left-lower{
+    transition: all 0.5s ease;
+}
+
+#transring{
+    transition: all 0.5s ease;
+}
+/* ------------------------------------------------------------background------------------------------------------------------------------------------- */
+
+.first{
+    background-color: #5F16AE;
+}
+.second{
+    background-color: #4C27CD;
+}
+.third{
+    background-color: #0F113A;
+}
+.fourth{
+    background-color: #15253C;
+}
+.fifth{
+    background-color: #114B9F;
+}
+.sixth{
+    background-color: #012A93;
+}
+.seventh{
+    background-color: #00834A;
+}
+
+
+.firstLower{
+    background-color: #5F13A9;
+}
+.secondLower{
+    background-color: #4A25CB;
+}
+.thirdLower{
+    background-color: #0E1039;
+}
+.fourthLower{
+    background-color: #14243B;
+}
+.fifthLower{
+    background-color: #114B9F;
+}
+.sixthLower{
+    background-color: #022992;
+}
+.seventhLower{
+    background-color: #00834A;
+}
+
+.fifthCircle{
+    background-color:#1356BF;
+}
+
+
+.firstRight{
+    background-color: #CBCBCD;
+}
+.secondRight{
+    background-color: #1C0361;
+}
+.thirdRight{
+    background-color: #151547;
+}
+.fourthRight{
+    background-color: #0C131B;
+}
+.fifthRight{
+    background-color: #27CEE1;
+}
+.sixthRight{
+    background: url("/assets/6a.jpg") no-repeat ;
+    background-size:contain;
+    width: 100%;  
+    height: auto; 
+}
+.seventhRight{
+    background-color: #00B669;
+}
+.backgroundImage{
+    transition: all 0.5s ease;
+}
+/* -------------------------------------------left bottom------------------------------------------------------------- */
+.award1{
+    transition: all 0.5s ease-in-out;
+}
+.award2{
+    transition: all 0.5s ease-in-out;
+}
+
+.case1, .case4, .case5, .case6{
+    transition: all 0.5s ease-in-out;
+}
+
+.case2,.case3,.case7{
+    transition: all 0.5s ease-in-out;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.hide{
+    opacity: 0;
+}
+
+.zoomIn{
+    animation-name:zoomIn;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+@keyframes zoomIn{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+
+.zoomOut{
+    animation-name:zoomOut;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+}
+@keyframes zoomOut{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(0);
+    }
+}
+/* -------------------------------------------------dots---------------------------------------------------------------- */
+
+.dot-body{
+    opacity: 0.4;
+    fill: none;
+    stroke:  rgb(255, 255, 255);
+    transition: all 1s ease;
+}
+
+.dot-shell{
+    fill: #ffffff;
+    opacity: 0.4;
+    transition: all 1s ease;
+}
+
+
+.filled-dot{
+    transition: all 1s ease;
+    fill: rgb(0, 146, 255);
+    opacity: 1;
+}
+.dot-stroke{
+    transition: all 1s ease;
+    opacity: 1;
+    fill: none;
+    stroke:  rgb(255, 255, 255);
+}
+
+
+.filled-dot3{
+    fill: rgb(0, 146, 255);
+    opacity: 1;
+}
+.dot-stroke3{
+    opacity: 1;
+    fill: none;
+    stroke:  rgb(255, 255, 255);
+}
+.filled-dot4{
+    fill: rgb(0, 146, 255);
+    opacity: 1;
+}
+.dot-stroke4{
+    opacity: 1;
+    fill: none;
+    stroke:  rgb(255, 255, 255);
+}
+.filled-dot5{
+    fill: rgb(0, 146, 255);
+    opacity: 1;
+}
+.dot-stroke5{
+    opacity: 1;
+    fill: none;
+    stroke:  rgb(255, 255, 255);
+}
+.filled-dot6{
+    fill: rgb(0, 146, 255);
+    opacity: 1;
+}
+.dot-stroke6{
+    opacity: 1;
+    fill: none;
+    stroke:  rgb(255, 255, 255);
+}
+.filled-dot7{
+    fill: rgb(0, 146, 255);
+    opacity: 1;
+}
+.dot-stroke7{
+    opacity: 1;
+    fill: none;
+    stroke:  rgb(255, 255, 255);
+}
+
+/* ================================================================================================= */
+
+.ring-length{
+    /* stroke-dasharray: 0, 1000; */
+    transition: all 0.5s ease;
+    fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;
+}
