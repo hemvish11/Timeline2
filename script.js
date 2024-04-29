@@ -240,9 +240,10 @@ ScrollTrigger.create({
         toggleClass3();
         addZoomOut3();
     }
-
-
 })
+
+
+
 ScrollTrigger.create({
     trigger: ".section1",
     start: "top 650%",
@@ -534,19 +535,19 @@ function toggleClass7() {
 
 
 // --------------------------------------------------------------slide2------------------------------------------------------------------
-    gsap.to(".view1", {
-        y: "-91vh",
-        duration: 0.5,
-        delay: 0.5,
-        scrollTrigger: {
-            trigger: ".section1",
-            start: "top 750%",
-            end: "top 650%",
-            // 
-            //              onEnter onLeave onEnterBack onLeaveBack
-            toggleActions: "restart reverse restart reverse",
-        }
-    });
+gsap.to(".view1", {
+    y: "-91vh",
+    duration: 0.5,
+    delay: 0.5,
+    scrollTrigger: {
+        trigger: ".section1",
+        start: "top 750%",
+        end: "top 650%",
+        // 
+        //              onEnter onLeave onEnterBack onLeaveBack
+        toggleActions: "restart reverse restart reverse",
+    }
+});
 
 
 // --------------------------------------------------------------slide2------------------------------------------------------------------
@@ -849,7 +850,7 @@ gsap.to(".text1", {
         trigger: ".section1",
         start: "top 750%",
         end: "top 650%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".text1", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -900,7 +901,7 @@ gsap.to(".text2", {
         trigger: ".section1",
         start: "top 650%",
         end: "top 550%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".text2", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -949,7 +950,7 @@ gsap.to(".text3", {
         trigger: ".section1",
         start: "top 550%",
         end: "top 450%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".text3", {
                 y: "10%", // Potentially redundant unless you want to reset or change something else here
@@ -1000,7 +1001,7 @@ gsap.to(".text4", {
         trigger: ".section1",
         start: "top 450%",
         end: "top 350%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".text4", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1050,7 +1051,7 @@ gsap.to(".text5", {
         trigger: ".section1",
         start: "top 350%",
         end: "top 250%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".text5", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1099,7 +1100,7 @@ gsap.to(".text6", {
         trigger: ".section1",
         start: "top 250%",
         end: "top 150%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".text6", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1146,7 +1147,7 @@ gsap.to(".text7", {
     scrollTrigger: {
         trigger: ".section1",
         start: "top 150%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".text7", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1229,7 +1230,7 @@ gsap.to(".left-text1", {
         trigger: ".section1",
         start: "top 750%",
         end: "top 650%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".left-text1", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1278,7 +1279,7 @@ gsap.to(".left-text2", {
         trigger: ".section1",
         start: "top 650%",
         end: "top 550%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".left-text2", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1328,7 +1329,7 @@ gsap.to(".left-text3", {
         trigger: ".section1",
         start: "top 550%",
         end: "top 450%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".left-text3", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1377,7 +1378,7 @@ gsap.to(".left-text4", {
         trigger: ".section1",
         start: "top 450%",
         end: "top 350%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".left-text4", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1427,7 +1428,7 @@ gsap.to(".left-text5", {
         trigger: ".section1",
         start: "top 350%",
         end: "top 250%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".left-text5", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1476,7 +1477,7 @@ gsap.to(".left-text6", {
         trigger: ".section1",
         start: "top 250%",
         end: "top 150%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".left-text6", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1524,7 +1525,7 @@ gsap.to(".left-text7", {
     scrollTrigger: {
         trigger: ".section1",
         start: "top 150%",
-         // Uncomment to see the start and end points during development
+        // Uncomment to see the start and end points during development
         onEnter: () => {
             gsap.to(".left-text7", {
                 y: "0%", // Potentially redundant unless you want to reset or change something else here
@@ -1563,3 +1564,6 @@ gsap.to(".left-text7", {
         toggleActions: "play pause resume resume"
     }
 });
+
+
+// ---------------------------------------mobile js------------------------------------------------------

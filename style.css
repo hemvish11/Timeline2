@@ -11,6 +11,10 @@ p{
     overflow: hidden;
     font-family: "Proxima Nova A Bold"
 }
+div{
+    overflow: hidden;
+    font-family: "Proxima Nova A Bold"
+}
 p span{
     display: inline-block;
     transform: translateY(100%);
@@ -121,6 +125,7 @@ p img{
     width: 100%;  
     height: auto; 
 }
+
 .seventhRight{
     background-color: #00B669;
 }
@@ -256,4 +261,141 @@ p img{
     /* stroke-dasharray: 0, 1000; */
     transition: all 0.5s ease;
     fill: none; stroke: rgb(255, 255, 255); stroke-width: 2; stroke-miterlimit: 10;
+}
+
+
+/* ----------------------------------------------------carousal------------------------------- */
+#gradientMobileBg2{
+    background-image: linear-gradient(135deg, #C731B3, #6325C6);
+}
+
+.sixthMobileBg{
+    background: url("/assets/6a.jpg") no-repeat ;
+    background-size:cover;
+    width: 100vw;  
+    height: 51.6vh; 
+}
+
+
+
+@media only screen and (min-width:320px){
+    .title1{
+        font-size: 34px;
+        margin-left: 6vw;
+        margin-top: 6vh;
+    }
+    .para1{
+        font-size: 13px;
+        margin-left: 6vw;
+        margin-top: 15vh;
+    }
+    .para2{
+        font-size: 13px;
+        margin-left: 6vw;
+        margin-top: 19vh;
+    }
+    .para3{
+        font-size: 15px;
+        margin-left: 6vw;
+        margin-top: 27vh;
+    }
+    .arrow{
+        font-size: 24px;
+        margin-left: 1vw;
+        margin-top: -1.3vh;
+    }
+}
+
+
+@media only screen and (min-width:375px){
+    .title1{
+        font-size: 36px;
+        margin-left: 6vw;
+        margin-top: 6vh;
+    }
+    .para1{
+        font-size: 14px;
+        margin-left: 6vw;
+        margin-top: 15vh;
+    }
+    .para2{
+        font-size: 14px;
+        margin-left: 6vw;
+        margin-top: 19vh;
+    }
+    .para3{
+        font-size: 16px;
+        margin-left: 6vw;
+        margin-top: 27vh;
+    }
+    .arrow{
+        font-size: 26px;
+        margin-left: 1vw;
+        margin-top: -1.3vh;
+    }
+}
+
+
+
+@media only screen and (min-width:425px){
+    .title1{
+        font-size: 42px;
+        margin-left: 6vw;
+        margin-top: 8vh;
+    }
+    
+    .para1{
+        font-size: 14px;
+        margin-left: 6vw;
+        margin-top: 18vh;
+    }
+    .para2{
+        font-size: 14px;
+        margin-left: 6vw;
+        margin-top: 22vh;
+    }
+    .para3{
+        font-size: 17px;
+        margin-left: 6vw;
+        margin-top: 29vh;
+    }
+    .arrow{
+        font-size: 28px;
+        margin-left: 8px;
+        margin-top: -10px;
+    }
+}
+/* ml-[6vw] mt-[8vh] */
+
+@media only screen and (min-width:600px){
+    .title1{
+        font-size: 46px;
+        margin-left: 6vw;
+        margin-top: 10vh;
+    }
+/* text-[16px] ml-[5%] mt-[18vh] */
+    /* text-[16px] ml-[5%]  mt-[21vh]  */
+
+    .para1{
+        font-size: 16px;
+        margin-left: 6vw;
+        margin-top: 20vh;
+    }
+    .para2{
+        font-size: 16px;
+        margin-left: 6vw;
+        margin-top: 24vh;
+    }
+    .para3{
+        font-size: 18px;
+        margin-left: 6vw;
+        margin-top: 32vh;
+    }
+    .arrow{
+        font-size: 32px;
+        margin-left: 1vw;
+        margin-top: -2.5vh;
+    }
+    /* text-[32px] -mt-[12px] ml-2  */
+
 }
