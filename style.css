@@ -278,7 +278,7 @@ p img{
 
 
 
-@media only screen and (min-width:320px){
+@media only screen and (min-width:0px){
     .title1{
         font-size: 34px;
         margin-left: 6vw;
@@ -298,6 +298,14 @@ p img{
         font-size: 15px;
         margin-left: 6vw;
         margin-top: 27vh;
+    }
+    .caseStudy{
+        font-size: 15px;
+        margin-left: 6vw;
+        margin-top: 23vh;
+    }
+    .caseStudyButton{
+        font-size: 15px;
     }
     .arrow{
         font-size: 24px;
@@ -327,6 +335,14 @@ p img{
         font-size: 16px;
         margin-left: 6vw;
         margin-top: 27vh;
+    }
+    .caseStudy{
+        font-size: 16px;
+        margin-left: 6vw;
+        margin-top: 23vh;
+    }
+    .caseStudyButton{
+        font-size: 16px;
     }
     .arrow{
         font-size: 26px;
@@ -359,10 +375,18 @@ p img{
         margin-left: 6vw;
         margin-top: 29vh;
     }
+    .caseStudy{
+        font-size: 17px;
+        margin-left: 6vw;
+        margin-top: 25.5vh;
+    }
+    .caseStudyButton{
+        font-size: 17px;
+    }
     .arrow{
         font-size: 28px;
         margin-left: 8px;
-        margin-top: -10px;
+        margin-top: -8px;
     }
 }
 /* ml-[6vw] mt-[8vh] */
@@ -396,10 +420,13 @@ p img{
         margin-left: 6vw;
         margin-top: 28vh;
     }
+    .caseStudyButton{
+        font-size: 18px;
+    }
     .arrow{
         font-size: 32px;
         margin-left: 1vw;
-        margin-top: -2.5vh;
+        margin-top: -2.3vh;
     }
     /* text-[32px] -mt-[12px] ml-2  */
 
