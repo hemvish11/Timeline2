@@ -431,3 +431,7 @@ p img{
     /* text-[32px] -mt-[12px] ml-2  */
 
 }
+
+.mobileMaxWidth{
+    max-width: 350px;
+}
